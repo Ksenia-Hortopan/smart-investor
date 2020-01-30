@@ -88,3 +88,64 @@
   border: solid #e3e3e3 1px;
   background: #f8f8f8;
 }
+
+
+
+/* recent_comments */
+
+
+
+.recent_comments{
+  margin-top: 35px;
+}
+.recent_comments h2{
+  font-size: 13px;
+  padding: 5px 0;
+  overflow: hidden;
+}
+.recent_comments h2::after{
+  content: url(../img/rectangle_central.jpg);
+  overflow: hidden;
+  padding-left: 5px;
+}
+.recent_comments_wrap{
+  padding: 6.4%;
+  border-top: solid #2d2d2d 1.5px;
+  border-right: solid #e3e3e3 1.5px;
+  border-bottom: solid #e3e3e3 1.5px;
+  border-left: solid #e3e3e3 1.5px;
+}
+
+.recent_comments_block{
+  width: 100%;
+  height: 75px;
+  margin-top: 3%;
+  padding-bottom: 3%;
+  border-bottom: solid #e3e3e3 1.5px;
+}
+.recent_comments_block:first-child{
+  margin-top: 0;
+}
+.recent_comments_block:last-child{
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.recent_comments_img{
+  float: left;
+  width: 32.4%;
+  height: 100%;
+  margin-right: 15px;
+}
+.recent_comments_block h3{
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+.recent_comments_block .comment_text{
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.recent_comments_block .comment_time{
+  color: #e3e3e3;
+  font-size: 12px;
+
+}

@@ -25,3 +25,24 @@ clear: both;
   padding-top: 20px;
   background: #fff;
 }
+input[type="checkbox"]{
+  position: relative;
+  top: 2px;
+}
+.icons{
+  width: 12px;
+  height: 11px;
+  z-index: 2;
+}
+.i1{
+  bottom: 17px;
+  right: 75px;
+}
+.i2{
+  bottom: 17px;
+  right: 50px;
+}
+.i3{
+  bottom: 17px;
+  right: 20px;
+}

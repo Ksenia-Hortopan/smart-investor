@@ -56,20 +56,3 @@ background: linear-gradient(180deg, rgba(3, 3, 3, 0),rgba(3, 3, 3, 0.9) );
   padding-left: 10px;
   z-index: 2;
 }
-.icons{
-  width: 12px;
-  height: 11px;
-  z-index: 2;
-}
-.i1{
-  bottom: 17px;
-  right: 75px;
-}
-.i2{
-  bottom: 17px;
-  right: 50px;
-}
-.i3{
-  bottom: 17px;
-  right: 20px;
-}
