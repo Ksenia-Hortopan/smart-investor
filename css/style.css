@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+
+}
+html{
+  background: url(../img/bg.jpg);
+	background-size: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.container{
+  max-width: 1259px;
+  width: 100%;
+  padding: 0 3.2%;
+  margin: 0 auto;
+
+}
+.clearfix:after{
+content: "";
+display: block;
+clear: both;
+}
+.main .container{
+  padding-top: 20px;
+  background: #fff;
+}

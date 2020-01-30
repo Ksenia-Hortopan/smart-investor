@@ -1,0 +1,55 @@
+header{
+  margin-top: 40px;
+}
+header .container{
+  min-height: 80px;
+  background: #2d2d2d;
+
+}
+.logo{
+  width: 9%;
+  float: left;
+  font-family: 'Russo One', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 80px;
+  font-size: 22px;
+
+}
+.logo span{
+  font-size: 30px;
+  font-family: 'Stalemate', cursive;
+  font-weight: bold;
+  color: #53abe9;
+  text-transform: uppercase;
+}
+.nav {
+  width: 40%;
+  float: left;
+  overflow: hidden;
+}
+.nav  li  {
+  float: left;
+  line-height: 80px;
+  margin: 0 15px;
+  list-style: none;
+
+}
+.nav a{
+  color: #fff;
+  text-decoration: none;
+
+
+}
+
+
+.adv{
+  width: 40%;
+  margin-top: 10px;
+  float: right;
+
+}
+.adv img{
+  width: 100%
+
+}

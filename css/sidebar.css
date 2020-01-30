@@ -1,0 +1,90 @@
+.sidebar{
+  width: 23.9%;
+  min-height: 300px;
+  float: left;
+}
+
+/* links */
+
+
+.link_block{
+  float: left;
+  width: 29%;
+  height: 100px;
+  color: #fff;
+  text-align: center;
+}
+.facebook{
+  background: #325c94;
+  margin-right: 6.4%;
+}
+.twitter{
+  background: #4fc0e9;
+  margin-right: 6.4%;
+}
+.rss{
+  background: #f78634;
+}
+.link_block img{
+  margin-top: 10px;
+}
+.link_block p{
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+
+/* adv_sidebar */
+.adv_sidebar{
+    margin-top: 35px;
+}
+.adv_sidebar_wrap{
+  padding:  3.2%;
+  border-top: solid #e3e3e3 1.5px;
+  border-right: solid #e3e3e3 1.5px;
+  border-bottom: solid #e3e3e3 1.5px;
+  border-left: solid #e3e3e3 1.5px;
+}
+
+.adv_260x125{
+  width: 100%;
+}
+.adv_125x125{
+  margin-right: 3.2%;
+  margin-top: 3.2%;
+  float: left;
+  width: 48%;
+}
+.adv_125x125:last-child{
+  margin-right: 0;
+}
+
+/* login */
+
+.login{
+  margin-top: 35px;
+}
+.login h2{
+  font-size: 16px;
+  padding: 5px 0;
+  overflow: hidden;
+}
+.login h2::after{
+  content: url(../img/rectangle_central.jpg);
+  overflow: hidden;
+  padding-left: 5px;
+}
+.login_wrap{
+  padding: 6.4%;
+  border-top: solid #2d2d2d 1.5px;
+  border-right: solid #e3e3e3 1.5px;
+  border-bottom: solid #e3e3e3 1.5px;
+  border-left: solid #e3e3e3 1.5px;
+}
+.username, .password{
+  width: 100%;
+  margin-top: 15px;
+  padding: 7px;
+  border: solid #e3e3e3 1px;
+  background: #f8f8f8;
+}
