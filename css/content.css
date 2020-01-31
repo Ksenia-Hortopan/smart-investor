@@ -1,6 +1,7 @@
 
 .content{
   width: 49%;
+  min-width: 460px;
   margin-right: 1.6%;
   min-height: 300px;
   float: left;
@@ -15,7 +16,7 @@
   padding: 5px 0;
   overflow: hidden;
 }
-h2::after{
+.latest_post h2::after{
   content: url(../img/rectangle.png);
   padding-left: 10px;
 }
@@ -87,14 +88,13 @@ z-index: 10;
   margin-top: 35px;
 }
 .news_in_picture h2{
-  font-size: 12px;
+  font-size: 11px;
   padding: 5px 0;
   overflow: hidden;
 }
-h2::after{
+.news_in_picture h2::after{
   content: url(../img/rectangle.png);
-  overflow: hidden;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 .news_in_picture_blocks_wrap{
   padding: 3.2% 0 0 3.2%;
@@ -139,6 +139,10 @@ h2::after{
   font-size: 12px;
   padding: 5px 0;
   overflow: hidden;
+}
+.carousel_posts h2::after{
+  content: url(../img/rectangle.png);
+  padding-left: 10px;
 }
 .carousel_posts_blocks_wrap{
   padding: 3.2% 0 3.2%  3.2%;
@@ -186,6 +190,10 @@ color: #b4b4b4;
   font-size: 12px;
   padding: 5px 0;
   overflow: hidden;
+}
+.entertainment h2::after{
+  content: url(../img/rectangle.png);
+  padding-left: 10px;
 }
 .entertainment_blocks_wrap{
   padding: 3.2% 0 3.2%  3.2%;
